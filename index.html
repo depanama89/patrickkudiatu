@@ -9,14 +9,16 @@
   <body>
     <header class="header">
       <nav class="header__nav">
-        <span class="header__nav-logo">PATRICK KUDIATU</span>
-        <ul class="header__nav-menu">
-          <li>Home</li>
-          <li>Projets</li>
-          <li>About me</li>
-          <li>Contact</li>
-        </ul>
-        <button class="header__nav-btn">Download CV</button>
+        <a href="#"><span class="header__nav-logo">PATRICK KUDIATU</span></a>
+        <div class="header__nav__navigation">
+          <menu class="header__nav__navigation__menu">
+            <li>Home</li>
+            <li>Projets</li>
+            <li>About me</li>
+            <li>Contact</li>
+          </menu>
+          <button class="header__nav__navigation-btn">Download CV</button>
+        </div>
       </nav>
     </header>
     <main class="main">
@@ -24,10 +26,10 @@
         <div class="main__hero__left">
           <div class="main__hero__left__about">
             <strong class="main__hero__left__about-strong">I am</strong>
-            <span class="main__hero__left__about-span">Patrick Kudiatu</span>
-            <h1 class="main__hero__left__about-title">
+            <h1 class="main__hero__left__about-span">Patrick Kudiatu</h1>
+            <strong class="main__hero__left__about-title">
               Developper web fullstack
-            </h1>
+            </strong>
           </div>
           <p class="main__hero__left-desc">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
@@ -37,24 +39,30 @@
           <button class="main__hero__left-btn">HIRE ME</button>
         </div>
         <div class="main__hero__right">
-          <div class="main__hero__right__img">
-            <img
-              src="assets/img/pat.png"
-              alt=""
-              class="main__hero__right__img-img"
-            />
-          </div>
-          <div class="main__hero__right__social">
-            <img src="assets/img/Facebook - Negative.png" alt="facebook" />
-            <img
-              src="assets/img/Instagram - Negative.png - Negative.png"
-              alt="facebook"
-            />
-            <img
-              src="assets/img/LinkedIn - Negative.png - Negative.png"
-              alt="facebook"
-            />
-          </div>
+          <ul class="main__hero__right__list">
+            <li>
+              <img
+                src="assets/img/pat.png"
+                alt=""
+                class="main__hero__right__img-img"
+              />
+            </li>
+            <li>
+              <img src="assets/img/Facebook - Negative.png" alt="facebook" />
+            </li>
+            <li>
+              <img
+                src="assets/img/Instagram - Negative.png - Negative.png"
+                alt="facebook"
+              />
+            </li>
+            <li>
+              <img
+                src="assets/img/LinkedIn - Negative.png - Negative.png"
+                alt="facebook"
+              />
+            </li>
+          </ul>
         </div>
       </section>
       <section class="main__aboutme">
@@ -69,9 +77,13 @@
             tempus pharetra
           </p>
           <div class="main__aboutme__right__skills">
-            <span>Html</span>
-            <span>Css</span>
-            <span>Javascript</span>
+            <ul class="main__aboutme__right__skills__items">
+              <li class="main__aboutme__right__skills__items-item">Html</li>
+              <li class="main__aboutme__right__skills__items-item">Css</li>
+              <li class="main__aboutme__right__skills__items-item">
+                Javascript
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -81,11 +93,13 @@
           Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam
           mauris est risus lectus. Phasellus consequat urna tellus
         </p>
-        <div class="main__projet__btns">
-          <button>All</button>
-          <button>UI/UX</button>
-          <button>Web Design</button>
-          <button>Email</button>
+        <div class="main__projet__skills">
+          <ul class="main__projet__skills__lists">
+            <li class="main__projet__skills__lists-item">All</li>
+            <li class="main__projet__skills__lists-item">UI/UX</li>
+            <li class="main__projet__skills__lists-item">Web Design</li>
+            <li class="main__projet__skills__lists-item">Email</li>
+          </ul>
         </div>
         <div class="main__projet__items">
           <div class="main__projet__items__p1">
@@ -112,9 +126,9 @@
         </div>
       </section>
       <section class="email">
-        <div class="email__get">
-          <strong>Lets Design Together</strong>
-          <p>
+        <div class="email__work">
+          <strong class="email__work__title">Lets work Together</strong>
+          <p class="email__work__desc">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
             nibh lectus netus in. Aliquet donec morbi convallis pretium
           </p>
@@ -125,31 +139,33 @@
       </section>
     </main>
     <footer class="footer">
-      <section class="footer__container">
-        <strong>Patrick Kudiatu</strong>
-        <ul class="footer__container__menu">
+      <div class="footer_contenu">
+        <h1>Patrick Kudiatu</h1>
+        <menu class="footer__container__menu">
           <li>Home</li>
           <li>Projets</li>
           <li>About me</li>
           <li>Contact</li>
+        </menu>
+
+        <ul class="footer__container__sociaux-lists">
+          <li class="footer__container__sociaux__lists__list">
+            <img src="assets/img/Facebook - Negative.png" alt="facebook" />
+          </li>
+          <li class="footer__container__sociaux__lists__list">
+            <img src="assets/img/Facebook.png" alt="facebook" />
+          </li>
+          <li class="footer__container__sociaux__lists__list">
+            <img src="assets/img/Instagram.png" alt="facebook" />
+          </li>
+          <li class="footer__container__sociaux__lists__list">
+            <img src="assets/img/LinkedIn.png " alt="facebook" />
+          </li>
         </ul>
-        <div class="footer__container__sociaux">
-          <img src="assets/img/Facebook - Negative.png" alt="facebook" />
-          <img
-            src="assets/img/Instagram - Negative.png - Negative.png"
-            alt="facebook"
-          />
-          <img
-            src="assets/img/LinkedIn - Negative.png - Negative.png"
-            alt="facebook"
-          />
-        </div>
-        <div class="footer__container__botton">
-          <p class="footer__container__bottom-copyrigt">
-            © 2023 Patrick Kudiatu All Rights Reserved , Inc.
-          </p>
-        </div>
-      </section>
+      </div>
+      <p class="footer__container__bottom-copyrigt">
+        © 2023 Patrick Kudiatu All Rights Reserved , Inc.
+      </p>
     </footer>
   </body>
 </html>
