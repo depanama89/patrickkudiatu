@@ -4,18 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <!-- <link rel="stylesheet" href="assets/css/styles.css" /> -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header__nav">
-        <a href="#"><span class="header__nav-logo">PATRICK KUDIATU</span></a>
+        <span class="header__nav__logo">
+          <a href="#" class="header__nav__logo-link">Patrick KUDIATU</a></span
+        >
         <div class="header__nav__navigation">
           <menu class="header__nav__navigation__menu">
-            <li>Home</li>
-            <li>Projets</li>
-            <li>About me</li>
-            <li>Contact</li>
+            <li class="header__nav__navigation__menu-list">
+              <a href="#" class="header__nav__navigation__menu__list-link"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#" class="header__nav__navigation__menu__list-link"
+                >Projets</a
+              >
+            </li>
+            <li>
+              <a href="#" class="header__nav__navigation__menu__list-link"
+                >About me</a
+              >
+            </li>
+            <li>
+              <a href="#" class="header__nav__navigation__menu__list-link"
+                >Contact</a
+              >
+            </li>
           </menu>
           <button class="header__nav__navigation-btn">Download CV</button>
         </div>
@@ -25,7 +43,7 @@
       <section class="main__hero">
         <div class="main__hero__left">
           <div class="main__hero__left__about">
-            <strong class="main__hero__left__about-strong">I am</strong>
+            <p class="main__hero__left__about-strong">I am</p>
             <h1 class="main__hero__left__about-span">Patrick Kudiatu</h1>
             <strong class="main__hero__left__about-title">
               Developper web fullstack
@@ -39,14 +57,13 @@
           <button class="main__hero__left-btn">HIRE ME</button>
         </div>
         <div class="main__hero__right">
+          <img
+            src="assets/img/pat.png"
+            alt=""
+            class="main__hero__right__img-img"
+          />
+
           <ul class="main__hero__right__list">
-            <li>
-              <img
-                src="assets/img/pat.png"
-                alt=""
-                class="main__hero__right__img-img"
-              />
-            </li>
             <li>
               <img src="assets/img/Facebook - Negative.png" alt="facebook" />
             </li>
