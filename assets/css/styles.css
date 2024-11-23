@@ -119,7 +119,7 @@ body {
   flex-direction: column;
   gap: 6px;
 }
-.main__hero__left__about-p {
+.main__hero__left-p {
   font-size: var(--font-size-23);
   font-weight: var(--font-weight-600);
 }
