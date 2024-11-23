@@ -1,0 +1,104 @@
+:root {
+  --bg-body: #1e1e1e;
+  --bg-white: #ffffff;
+  --bg-black-50: #e6e6e6;
+  --bg-black-100: #b0b0b0;
+  --bg-black-200: #8a8a8a;
+  --bg-black-300: #545454;
+  --bg-black-400: #333333;
+  --bg-black-500: #000000;
+  --bg-black-600: #000000;
+  --bg-black-700: #000000;
+  --bg-black-800: #000000;
+  --bg-black-900: #000000;
+  /* Orange */
+  --bg-orange-50: #ffefe6;
+  --bg-orange-100: #ffcfb0;
+  --bg-orange-200: #ffb78a;
+  --bg-orange-300: #ff9654;
+  --bg-orange-400: #ff8233;
+  --bg-orange-500: #ff6300;
+  --bg-orange-600: #e85a00;
+  --bg-orange-700: #b54600;
+  --bg-orange-800: #8c3600;
+  --bg-orange-900: #6b2a00;
+  --bg-orange: #fd6f00;
+  /* font family #FD6F00*/
+  --font-family: "Poppins", sans-serif;
+  --font-size-21: 1.3rem;
+  --font-size-12: 0.6rem;
+  --font-size-14: 0.7rem;
+  --font-size-18: 1rem;
+  --font-size-23: 1.2rem;
+  --font-size-28: 1.5rem;
+  --font-size-35: 1.9rem;
+  --font-size-44: 2.4rem;
+  --font-size-55: 3.8rem;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+  --font-weight-900: 900;
+  /*  */
+}
+
+@media all and (max-width: 768px) and (min-width: 328px) {
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 48px;
+  }
+  .header__nav__navigation {
+    display: none;
+  }
+  .header__nav__toggle {
+    display: block;
+  }
+  .header__nav__logo-link {
+    font-size: var(--font-size-21);
+  }
+  .main__hero__left__about-titleJob {
+    font-size: var(--font-size-55);
+  }
+  .main__hero__left__about__titleJob-span {
+    top: 40px;
+  }
+  .header__nav__toggle__icon {
+    cursor: pointer;
+  }
+
+  /* hero */
+  .main__hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__hero__left {
+    align-items: center;
+    gap: var(--font-size-28);
+  }
+  .main__hero__left__about {
+    text-align: center;
+  }
+  .main__hero__left__about-titleJob {
+    font-size: var(--font-size-44);
+    line-height: 4rem;
+  }
+  .main__hero__left-desc {
+    text-align: center;
+  }
+  .main__hero__right__img-img {
+    width: 441px;
+    height: 441px;
+  }
+
+  /* 
+  .header__nav__navigation__menu__list-link {
+    font-size: var(--font-size-14);
+  }
+  .header__nav__navigation-btn {
+    width: 85px;
+    height: 33px;
+    font-size: var(--font-size-14);
+  } */
+}
