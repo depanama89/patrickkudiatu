@@ -61,14 +61,13 @@
   .main__hero__left__about-titleJob {
     font-size: var(--font-size-55);
   }
-  .main__hero__left__about__titleJob-span {
-    top: 40px;
-  }
+
   .header__nav__toggle__icon {
     cursor: pointer;
   }
 
   /* hero */
+
   .main__hero {
     flex-direction: column;
     align-items: center;
@@ -101,4 +100,28 @@
     height: 33px;
     font-size: var(--font-size-14);
   } */
+}
+@media all and (max-width: 452px) and (min-width: 328px) {
+  .header__nav__navigation {
+    display: none;
+  }
+  .header__nav__toggle {
+    display: block;
+  }
+  .main__hero__left {
+    gap: var(--font-size-23);
+  }
+  .main__hero__left__about-titleJob {
+    font-size: var(--font-size-28);
+    /* line-height: 4rem; */
+  }
+  .main__hero__left-desc {
+    font-size: var(--font-size-18);
+    width: 100%;
+    padding: 10px;
+  }
+  .main__hero__right__img-img {
+    width: 370px;
+    height: 370px;
+  }
 }
