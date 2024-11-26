@@ -1,0 +1,252 @@
+/* @media screen and (min-width: 992px) {
+  .header__nav__navigation {
+    display: block;
+  }
+} */
+@media all and (min-width: 993px) {
+  .header__nav__navigation {
+    display: flex;
+  }
+  .header__nav__toggle {
+    display: none;
+  }
+  .main__aboutme {
+    flex-direction: row;
+    gap: 200px;
+  }
+  .main__aboutme__right-contenu {
+    text-align: justify;
+  }
+  .main__projet__items__lists {
+    flex-direction: row;
+  }
+  .main__projet__items__lists li {
+    gap: var(--font-size-35);
+  }
+  .main__projet__items__lists-img {
+    width: 100%;
+    height: 100%;
+  }
+  .email_work_info {
+    width: 64%;
+  }
+  .email__get__form {
+    width: 50%;
+  }
+  .footer__contenu {
+    gap: 64px;
+  }
+  .footer__container__sociaux-lists {
+    gap: 32px;
+  }
+}
+
+@media all and (max-width: 992px) and (min-width: 769px) {
+  .header__nav__navigation {
+    display: none;
+  }
+  .main__hero {
+    flex-direction: column;
+  }
+  .header__nav__toggle {
+    display: block;
+  }
+  .main__hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__hero__left {
+    align-items: center;
+    gap: var(--font-size-28);
+  }
+  .main__hero__left__about {
+    text-align: center;
+  }
+  .main__hero__left__about-titleJob {
+    font-size: var(--font-size-44);
+    line-height: 4rem;
+  }
+  .main__hero__left-desc {
+    text-align: center;
+  }
+  .main__hero__right__img-img {
+    width: 100%;
+    height: 100%;
+    max-width: 441px;
+  }
+}
+@media all and (max-width: 768px) and (min-width: 450px) {
+  body {
+    gap: 48px;
+  }
+  .section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .header__nav__navigation {
+    display: none;
+  }
+  .header__nav__toggle {
+    display: block;
+  }
+  .header__nav__logo-link {
+    font-size: var(--font-size-21);
+  }
+  .main__hero__left__about-titleJob {
+    font-size: var(--font-size-55);
+  }
+
+  .header__nav__toggle__icon {
+    cursor: pointer;
+  }
+
+  /* hero */
+
+  .main__hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__hero__left {
+    align-items: center;
+    gap: var(--font-size-28);
+  }
+  .main__hero__left__about {
+    text-align: center;
+  }
+  .main__hero__left__about-titleJob {
+    font-size: var(--font-size-44);
+    line-height: 4rem;
+  }
+  .main__hero__left-desc {
+    text-align: center;
+  }
+  .main__hero__right__img-img {
+    width: 100%;
+    height: 100%;
+    max-width: 441px;
+  }
+
+  /* 
+  .header__nav__navigation__menu__list-link {
+    font-size: var(--font-size-14);
+  }
+  .header__nav__navigation-btn {
+    width: 85px;
+    height: 33px;
+    font-size: var(--font-size-14);
+  } */
+}
+@media screen and (max-width: 449px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+    gap: 32px;
+  }
+  .section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .header {
+    margin-top: 20px;
+  }
+  .header__nav__navigation {
+    display: none;
+  }
+  .header__nav__logo-link {
+    font-size: 1rem;
+  }
+  .header__nav__toggle {
+    display: block;
+  }
+  .main__hero {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main__hero__left {
+    gap: var(--font-size-18);
+    align-items: center;
+  }
+  .main__hero__left__about-span {
+    text-align: center;
+  }
+  .main__hero__left__about-titleJob {
+    font-size: var(--font-size-21);
+    line-height: 2.2rem;
+    text-align: center;
+  }
+  .main__hero__left-desc {
+    font-size: var(--font-size-18);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.7rem;
+  }
+  .main__hero__left-btn {
+    width: 40%;
+    padding: 10px;
+  }
+  .main__hero__right__img-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .main__aboutme {
+    width: 100%;
+  }
+  .main__aboutme__left-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main__aboutme__right-title {
+    font-size: var(--font-size-18);
+  }
+  .main__aboutme__right-contenu {
+    text-align: center;
+    font-size: var(--font-size-18);
+    line-height: 1.7rem;
+    width: 100%;
+  }
+  .main__aboutme__right__skills {
+    width: 100%;
+  }
+  .main__aboutme__right__skills__items {
+    width: 100%;
+  }
+  .main__projet {
+    gap: 32px;
+    width: 100%;
+  }
+  .main__projet__info {
+    width: 100%;
+  }
+  .main__projet__skills__lists {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .main__projet__skills__lists-item {
+    /* width: 10%; */
+    /* width: 23%; */
+    font-size: var(--font-size-12);
+    padding: 5px 10px 5px 10px;
+  }
+  /* .btnallweb {
+    width: 31%;
+    text-align: center;
+  }
+  .btnall {
+    padding: 9px;
+    text-align: center;
+  } */
+  .main__projet__items__lists {
+    align-items: center;
+  }
+  .main__projet__items__lists-img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+  }
+}
