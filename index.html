@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" /> -->
+    <link rel="stylesheet" href="/assets/css/index.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header section">
       <nav class="header__nav">
         <span class="header__nav__logo">
           <a href="#" class="header__nav__logo-link">Patrick KUDIATU</a></span
@@ -58,14 +59,14 @@
         </div>
       </nav>
     </header>
-    <main class="main">
+    <main class="main section">
       <section class="main__hero">
         <div class="main__hero__left">
           <p class="main__hero__left-p">I am</p>
           <div class="main__hero__left__about">
             <h1 class="main__hero__left__about-span">Patrick Kudiatu</h1>
             <h2 class="main__hero__left__about-titleJob">
-              Developper web fullstack
+              Developer web fullstack
             </h2>
           </div>
           <p class="main__hero__left-desc">
@@ -155,7 +156,7 @@
           </div>
         </div>
       </section>
-      <!-- <section class="main__projet">
+      <section class="main__projet">
         <div class="main__projet__info">
           <h2 class="main__projet__info-title">My Projects</h2>
           <p class="main__projet__info-desc">
@@ -165,16 +166,22 @@
         </div>
         <div class="main__projet__skills">
           <ul class="main__projet__skills__lists">
-            <li class="main__projet__skills__lists-item">All</li>
-            <li class="main__projet__skills__lists-item">UI/UX</li>
-            <li class="main__projet__skills__lists-item">Web Design</li>
-            <li class="main__projet__skills__lists-item">Email</li>
+            <li class="main__projet__skills__lists-item btnall">All</li>
+            <li class="main__projet__skills__lists-item btnall">UI/UX</li>
+            <li class="main__projet__skills__lists-item btnallweb">
+              Web Design
+            </li>
+            <li class="main__projet__skills__lists-item btnall">Email</li>
           </ul>
         </div>
         <div class="main__projet__items">
           <ul class="main__projet__items__lists">
             <li>
-              <img src="assets/img/p1.png" alt="projet" />
+              <img
+                src="assets/img/p1.png"
+                alt="projet"
+                class="main__projet__items__lists-img"
+              />
               <div class="main__projet__items__lists__item">
                 <span class="main__projet__items__lists__item-span"
                   >Web Design
@@ -183,7 +190,11 @@
               </div>
             </li>
             <li>
-              <img src="assets/img/p1.png" alt="projet" />
+              <img
+                src="assets/img/p2.png"
+                alt="projet"
+                class="main__projet__items__lists-img"
+              />
               <div class="main__projet__items__lists__item">
                 <span class="main__projet__items__lists__item-span"
                   >Web Design
@@ -192,9 +203,15 @@
               </div>
             </li>
             <li>
-              <img src="assets/img/p1.png" alt="projet" />
-              <div class="main__projet__items__item">
-                <span class="main__projet__items__item-span">Web Design </span>
+              <img
+                src="assets/img/p3.png"
+                alt="projet"
+                class="main__projet__items__lists-img"
+              />
+              <div class="main__projet__items__lists__item">
+                <span class="main__projet__items__lists__item-span"
+                  >Web Design
+                </span>
                 <strong>AirCalling Landing Page Design </strong>
               </div>
             </li>
@@ -211,27 +228,36 @@
             </p>
           </div>
           <div class="email__get__form">
-            <input type="text" name="email" /><button>Contact me</button>
+            <input
+              type="text"
+              name="email"
+              class="email__get__form-input"
+            /><button class="email__get__form-btn">Contact me</button>
           </div>
         </div>
-      </section> -->
+      </section>
     </main>
     <footer class="footer">
-      <div class="footer_contenu">
+      <div class="footer__contenu">
         <h2>Patrick Kudiatu</h2>
         <ul class="footer__container__menu">
-          <li>Home</li>
-          <li>Projets</li>
-          <li>About me</li>
-          <li>Contact</li>
+          <li class="footer__container__menu-item"><a href="#hero">Home</a></li>
+          <li class="footer__container__menu-item"><a href="#">Projets</a></li>
+          <li class="footer__container__menu-item"><a href="#">About me</a></li>
+          <li class="footer__container__menu-item"><a href="#">Contact</a></li>
         </ul>
 
         <ul class="footer__container__sociaux-lists">
           <li class="footer__container__sociaux__lists__list">
-            <img src="assets/img/Facebook - Negative.png" alt="facebook" />
+            <img src="assets/img/Facebook.png" alt="facebook" />
           </li>
           <li class="footer__container__sociaux__lists__list">
-            <img src="assets/img/Facebook.png" alt="facebook" />
+            <img
+              src="assets/img/x.png"
+              alt="facebook"
+              width="33px"
+              height="33px"
+            />
           </li>
           <li class="footer__container__sociaux__lists__list">
             <img src="assets/img/Instagram.png" alt="facebook" />
@@ -241,7 +267,7 @@
           </li>
         </ul>
       </div>
-      <p class="footer__container__bottom-copyrigt">
+      <p class="footer__container__bottom-copyright">
         © 2023 Patrick Kudiatu All Rights Reserved , Inc.
       </p>
     </footer>
