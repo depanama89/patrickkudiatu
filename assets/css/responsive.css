@@ -14,6 +14,9 @@
     flex-direction: row;
     gap: 200px;
   }
+  .main__aboutme__right-contenu {
+    text-align: justify;
+  }
   .main__projet__items__lists {
     flex-direction: row;
   }
@@ -25,7 +28,7 @@
     height: 100%;
   }
   .email_work_info {
-    width: 50%;
+    width: 64%;
   }
   .email__get__form {
     width: 50%;

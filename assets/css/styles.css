@@ -335,6 +335,7 @@ body {
 }
 .main__projet__info-desc {
   text-align: center;
+  width: 71%;
 }
 .main__projet__skills {
   width: 100%;
@@ -350,11 +351,16 @@ body {
   flex-direction: column;
   gap: 44px;
 }
+.active {
+  background-color: var(--bg-orange);
+  color: var(--bg-white);
+}
 .main__projet__skills__lists-item {
   padding: 10px 20px 10px 20px;
   background-color: #f8f8f8;
   border-radius: 12px;
   color: var(--bg-black-500);
+  cursor: pointer;
 }
 .main__projet__items__lists li {
   display: flex;
