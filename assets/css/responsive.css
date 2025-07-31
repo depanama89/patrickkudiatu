@@ -178,7 +178,7 @@
     font-size: var(--font-size-18);
     width: 100%;
     padding: 10px;
-    text-align: center;
+    /* text-align: center; */
     line-height: 1.7rem;
   }
   .main__hero__left-btn {

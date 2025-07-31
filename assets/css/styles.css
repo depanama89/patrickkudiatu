@@ -326,6 +326,7 @@ body {
   flex-direction: column;
   gap: 59px;
   align-items: center;
+  height: auto;
 }
 .main__projet__info {
   display: flex;
@@ -349,7 +350,8 @@ body {
 .main__projet__items__lists {
   display: flex;
   flex-direction: column;
-  gap: 44px;
+  gap: 50px;
+  
 }
 .active {
   background-color: var(--bg-orange);
@@ -374,6 +376,13 @@ body {
   gap: 10px;
   width: 100%;
 }
+.main__projet__items__list{
+  width: 351px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .main__projet__items__lists__item-span {
   font-size: 19px;
   color: var(--bg-orange);
@@ -381,6 +390,10 @@ body {
 
   line-height: 28.5px;
   letter-spacing: 0.03em;
+}
+.main__projet__items__lists-img{
+  border-radius: 10px;
+  height: 398px;
 }
 .email__work {
   display: flex;
